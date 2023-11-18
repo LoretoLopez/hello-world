@@ -8,3 +8,7 @@ def rellenarDatosCocodrilo(numCoco):
     rellenarDatos(listaDientes,listaLong,listaPeso,numCoco)
     info = mostrarDatos(listaDientes,listaLong,listaPeso)
     return info
+ 
+ numCoco = int(input("¿Cuántos cocodrilos vamos a introducir? "))
+infoCocodrilo = rellenarDatosCocodrilo(numCoco)
+print(infoCocodrilo)
