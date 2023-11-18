@@ -1,14 +1,3 @@
 #Probando para hacer la rama
 
-
-def rellenarDatosCocodrilo(numCoco):
-    listaDientes = []
-    listaLong = []
-    listaPeso = []
-    rellenarDatos(listaDientes,listaLong,listaPeso,numCoco)
-    info = mostrarDatos(listaDientes,listaLong,listaPeso)
-    return info
- 
- numCoco = int(input("¿Cuántos cocodrilos vamos a introducir? "))
-infoCocodrilo = rellenarDatosCocodrilo(numCoco)
-print(infoCocodrilo)
+print(f"¡He encontrado a la piraña al intento {contadorIntentos}!")
